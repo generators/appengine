@@ -1,4 +1,4 @@
-# generator-appengine [![Build Status](https://secure.travis-ci.org/danielchatfield/generator-appengine.png?branch=master)](https://travis-ci.org/danielchatfield/generator-appengine)
+# generator-appengine [![Build Status](https://secure.travis-ci.org/generators/appengine.png?branch=master)](https://travis-ci.org/danielchatfield/generator-appengine)
 
 A generator for [Yeoman](http://yeoman.io).
 
