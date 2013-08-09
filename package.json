@@ -1,0 +1,41 @@
+{
+  "name": "generator-appengine",
+  "version": "0.0.0",
+  "description": "A generator for Yeoman",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "homepage": "https://github.com/danielchatfield/generator-appengine",
+  "bugs": "https://github.com/danielchatfield/generator-appengine/issues",
+  "author": {
+    "name": "Daniel Chatfield",
+    "email": "chatfielddaniel@gmail.com",
+    "url": "https://github.com/danielchatfield"
+  },
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/danielchatfield/generator-appengine.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "yeoman-generator": "~0.13.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.12.0"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0-rc.1"
+  },
+  "engines": {
+    "node": ">=0.8.0",
+    "npm": ">=1.2.10"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}
