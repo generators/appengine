@@ -23,28 +23,23 @@ AppengineGenerator.prototype.askFor = function askFor() {
   console.log(this.yeoman);
 
   var prompts = [{
-    type: 'confirm',
-    name: 'someOption',
-    message: 'Would you like to enable this option?',
-    default: true
+    name: 'appId',
+    message: 'What is the application ID?',
+    default: 'new-application'
   }];
 
   this.prompt(prompts, function (props) {
-    this.someOption = props.someOption;
+    this.appId = props.appId;
 
     cb();
   }.bind(this));
 };
 
-AppengineGenerator.prototype.app = function app() {
-  this.mkdir('app');
-  this.mkdir('app/templates');
-
-  this.copy('_package.json', 'package.json');
-  this.copy('_bower.json', 'bower.json');
-};
-
 AppengineGenerator.prototype.projectfiles = function projectfiles() {
   this.copy('editorconfig', '.editorconfig');
-  this.copy('jshintrc', '.jshintrc');
 };
+
+AppengineGenerator.prototype.AppEngineFiles = function AppEngineFiles() {
+  this.template('app.yaml');
+};
+
