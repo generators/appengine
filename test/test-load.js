@@ -3,7 +3,7 @@
 
 var assert  = require('assert');
 
-describe('AppEngine generator', function () {
+describe('appengine generator', function () {
   it('can be imported without blowing up', function () {
     var app = require('../app');
     assert(app !== undefined);
