@@ -5,5 +5,7 @@ threadsafe: yes
 api_version: 1
 
 handlers:
- - url: /favicon\.ico
-   static_files: favicon.ico
+ - url: /(favicon\.ico|robots\.txt|)
+   static_files: assets/\1
+   upload: assets/.*
+   expiration: "14d"
