@@ -37,5 +37,11 @@ AppengineGenerator.prototype.projectfiles = function projectfiles() {
 
 AppengineGenerator.prototype.AppEngineFiles = function AppEngineFiles() {
   this.template('app.yaml');
+  this.copy('index.yaml');
 };
 
+AppengineGenerator.prototype.StaticFiles = function StaticFiles() {
+  this.mkdir('assets');
+  this.copy('assets/favicon.ico');
+  this.copy('assets/robots.txt');
+};
