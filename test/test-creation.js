@@ -21,8 +21,10 @@ describe('appengine generator', function () {
 
   it('creates expected files', function (done) {
     var expected = [
-      // add files you expect to exist here.
-      'app.yaml'
+      'app.yaml',
+      'index.yaml',
+      'assets/robots.txt',
+      'assets/favicon.ico'
     ];
 
     helpers.mockPrompt(this.app, {
