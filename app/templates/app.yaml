@@ -5,7 +5,5 @@ threadsafe: yes
 api_version: 1
 
 handlers:
-# Admin console, see http://goo.gl/pQM9ll
- - url: /admin.*
-   script: google.appengine.ext.admin.application
-   login: admin
+ - url: /favicon\.ico
+   static_files: favicon.ico
