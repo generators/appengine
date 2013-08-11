@@ -43,7 +43,7 @@ AppengineGenerator.prototype.projectfiles = function projectfiles() {
 };
 
 AppengineGenerator.prototype.AppEngineFiles = function AppEngineFiles() {
-  this.template('app.yaml');
+  this.template('_app.yaml', 'app.yaml');
   this.copy('index.yaml');
 };
 
