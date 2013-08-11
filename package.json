@@ -5,8 +5,8 @@
   "keywords": [
     "yeoman-generator"
   ],
-  "homepage": "https://github.com/danielchatfield/generator-appengine",
-  "bugs": "https://github.com/danielchatfield/generator-appengine/issues",
+  "homepage": "https://github.com/generators/appengine",
+  "bugs": "https://github.com/generators/appengine/issues",
   "author": {
     "name": "Daniel Chatfield",
     "email": "chatfielddaniel@gmail.com",
@@ -15,7 +15,7 @@
   "main": "app/index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/danielchatfield/generator-appengine.git"
+    "url": "git://github.com/generators/appengine.git"
   },
   "scripts": {
     "test": "mocha"
