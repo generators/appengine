@@ -25,8 +25,6 @@ AppengineGenerator.prototype.askFor = function askFor() {
       message: 'What is the application ID?',
       default: path.basename(process.cwd())
     })
-  } else {
-    this.appId = this.args[0];
   }
 
   this.prompt(prompts, function (props) {
