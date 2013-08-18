@@ -1,4 +1,4 @@
-# generator-appengine [![Build Status](https://secure.travis-ci.org/generators/appengine.png?branch=master)](https://travis-ci.org/generators/appengine) [![Dependency Status](https://david-dm.org/generators/appengine)](https://david-dm.org/generators/appengine) 
+# generator-appengine [![Build Status](https://secure.travis-ci.org/generators/appengine.png?branch=master)](https://travis-ci.org/generators/appengine) [![Dependency Status](https://david-dm.org/generators/appengine.png)](https://david-dm.org/generators/appengine) 
 
 A generator for [Yeoman](http://yeoman.io).
 
